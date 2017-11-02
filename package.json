@@ -4,7 +4,7 @@
   "description": "Bankin home made back-end made in NodeJS",
   "main": "dist/server.js",
   "scripts": {
-    "build": "gulp build",
+    "build": "gulp",
     "lint": "gulp lint",
     "start": "yarn build && NODE_ENV=production LOG_LEVEL=trace API_PORT=9000 ROOT_PASSWD=root JWT_SECRET=bankin MONGO_URL='mongodb://admin:admin@cluster0-shard-00-00-9dlqc.mongodb.net:27017,cluster0-shard-00-01-9dlqc.mongodb.net:27017,cluster0-shard-00-02-9dlqc.mongodb.net:27017/test?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin' node ./dist/server.js | ./node_modules/.bin/bunyan --color"
   },
