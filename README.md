@@ -10,6 +10,9 @@
 - [Yarn](https://yarnpkg.com/en/docs/install)
 - [VSCode](https://code.visualstudio.com) (Recommended)
 
+## Test online on [Heroku](https://bankin-ingesup.herokuapp.com)
+
+## Self hosted version
 ### Build
 ```bash
 $ yarn install
