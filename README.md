@@ -10,7 +10,11 @@
 - [Yarn](https://yarnpkg.com/en/docs/install)
 - [VSCode](https://code.visualstudio.com) (Recommended)
 
-## Test online on [Heroku](https://bankin-ingesup.herokuapp.com)
+## Test back online on [Heroku](https://bankin-ingesup.herokuapp.com)
+
+## Test front online on [Heroku](https://angular4front.herokuapp.com)
+
+### Front is on [Github](https://github.com/yann9602/frontAngular4) too
 
 ## Self hosted version
 ### Build
@@ -21,7 +25,7 @@ $ yarn build #or run Build Task in VSCode
 
 ### Start
 You need to put some environment variable.
-JWT_SECRET, LOG_LEVEL, MONGO_URL, NODE_ENV, ROOT_PASSWD.
+JWT\_SECRET, LOG\_LEVEL, MONGO\_URL, NODE\_ENV, ROOT\_PASSWD.
 The app create a root user at launch.
 ```bash
 $ yarn start
